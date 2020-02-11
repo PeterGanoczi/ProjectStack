@@ -1,0 +1,8 @@
+package sk.itsovy.ganoczi.exception;
+
+public class StackUnderflowException extends Exception {
+
+    public StackUnderflowException(String message) {
+        super(message);
+    }
+}
