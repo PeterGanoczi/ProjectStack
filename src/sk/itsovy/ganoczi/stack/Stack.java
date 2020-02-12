@@ -68,7 +68,7 @@ public class Stack<T> {
 
     public void empty(){
         list.clear();
-        size=0;
+
     }
 
 
