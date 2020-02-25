@@ -3,6 +3,10 @@ package sk.itsovy.ganoczi.linkedlist;
 public class LinkedList {
     private Node head;
 
+    public Node getHead() {
+        return head;
+    }
+
     public LinkedList() {
         this.head = null;
     }
